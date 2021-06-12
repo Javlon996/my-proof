@@ -1,0 +1,623 @@
+body {
+    margin: 50px 350px ;
+}
+.container {
+    width: 900px;
+    height: 570px;
+    background-color: rgb(18, 15, 26);
+}
+
+.yozuv {
+    display: flex;
+    color: rgb(47, 40, 66);
+    font-size: 5px;
+    font-weight: 600;
+    margin-left: 70px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item1 {
+    margin-left: 10px;
+    animation: harakat1 2s alternate linear infinite;
+
+}
+
+@keyframes harakat1 {
+    to  {
+        color:white;
+    }
+}
+
+.item2 {
+    margin-left: 10px;
+    animation: harakat2 2.05s alternate linear infinite;
+
+}
+
+@keyframes harakat2 {
+    to  {
+        color:white;
+    }
+}
+
+.item3 {
+    margin-left: 10px;
+    animation: harakat3 2.1s alternate linear infinite;
+
+}
+
+@keyframes harakat3 {
+    to  {
+        color:white;
+    }
+}
+
+.item4 {
+    margin-left: 10px;
+    animation: harakat4 2.15s alternate linear infinite;
+
+}
+
+@keyframes harakat4 {
+    to  {
+        color:white;
+    }
+}
+
+.item5 {
+    margin-left: 10px;
+    animation: harakat5 2.2s alternate linear infinite;
+
+}
+
+@keyframes harakat5 {
+    to  {
+        color:white;   
+    }
+}
+
+.item6 {
+    margin-left: 10px;
+    animation: harakat6 2.25s alternate linear infinite;
+
+}
+
+@keyframes harakat6 {
+    to  {
+        color:white;
+    }
+}
+
+.item7 {
+    margin-left: 10px;
+    animation: harakat7 2.3s alternate linear infinite;
+
+}
+
+@keyframes harakat7 {
+    to  {
+        color:white;
+
+    }
+}
+
+.item8 {
+    margin-left: 10px;
+    animation: harakat8 2.35s alternate linear infinite;
+
+}
+
+@keyframes harakat8 {
+    to  {
+        color:white;
+
+    }
+}
+
+.item9 {
+    margin-left: 10px;
+    animation: harakat9 2.4s alternate linear infinite;
+
+}
+
+@keyframes harakat9 {
+    to  {
+        color:white;
+
+    }
+}
+
+
+/* mian div boshlandi */
+
+.main {
+    margin-left: 60px;
+    margin-top: 100px;
+    width: 200px;
+    height: 400px;
+    position: relative;
+  
+}
+.nav {
+    position: absolute;
+    background-color: rgb(0, 162, 255);
+    width: 5px;
+    height: 70px;
+    left: 5px;
+    top: 20px;
+    
+    animation: fozil 15s alternate ;
+}
+
+@keyframes fozil {
+    0% {
+        left: 5px;
+        top: 20px;
+        
+    }
+
+    25% {
+       left: 5px;
+       top: 250px;
+    }
+
+    50% {
+      left: 5px;
+       top: 130px;
+    }
+
+    100% {
+       left: 5px;
+       top: 20px;
+    } 
+}
+
+.ikki {
+    display: flex;
+}
+
+.sport {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0px;
+    opacity: 0.8;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.uch {
+    position: absolute;
+    height: 15px;
+    width: 20px;
+    top: 32px;
+    left: 85px;
+}
+
+.foz1 {
+    background-color: rgb(0, 162, 255);
+    height: 3px;
+    width: 8px;
+    margin-top: 2px;
+    animation: suv1 1s alternate infinite linear;
+}
+
+@keyframes suv1 {
+    to {
+        width:20px;
+    }
+}
+
+.foz2 {
+    background-color: rgb(0, 162, 255);
+    height: 3px;
+    width: 12px;
+    margin-top: 2px;
+    animation: suv2 1.3s alternate infinite linear;
+}
+
+@keyframes suv2 {
+    to{
+     width: 20px;
+    }
+}
+
+.foz3 {
+    background-color: rgb(0, 162, 255);
+    height: 3px;
+    width: 8px;
+    margin-top: 2px;
+    animation: suv3 1s alternate infinite linear;
+}
+
+@keyframes suv3 {
+    to {
+       width: 12px;
+    }
+}
+
+.explorer {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0px;
+    opacity: 0.8;
+    margin-left: 30px;
+    padding-top: 60px;
+}
+
+.journal {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0px;
+    opacity: 0.8;
+    margin-left: 30px;
+    padding-top: 85px;
+}
+
+.lorem1 {
+    color: white;
+    font-size: 10px;
+    opacity: 0.5;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.lorem2 {
+    color: white;
+    font-size: 10px;
+    opacity: 0.5;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.lorem3 {
+    color: white;
+    font-size: 10px;
+    opacity: 0.5;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.lorem4 {
+    color: white;
+    font-size: 10px;
+    opacity: 0.5;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+
+
+.nuqta {
+     height: 340px;
+     width: 340px;
+     border: 3.5px dotted rgb(26, 26, 65);
+     position: absolute;
+     top: 210px;
+     left: 800px;
+     border-radius: 50%;
+     animation: child 20s alternate linear infinite;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+
+.parent {
+    height: 300px;
+     width: 300px;
+     border: 7px dashed rgb(33, 33, 97);
+     border-radius: 50%;
+     animation: child 32s alternate linear infinite;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+@keyframes child{
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+
+.tak1 {
+    height: 260px;
+    width: 260px;
+    border: 4px solid rgb(33, 33, 97);
+    border-radius: 50%;
+    animation: child 100s alternate linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tak2 {
+    height: 248px;
+    width: 248px;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.tak3 {
+    height: 228px;
+    width: 228px;
+    border: 4.8px solid white;
+    border-radius: 50%;
+    animation: child 100s alternate linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tak4 {
+    height: 208px;
+    width: 208px;
+    border: 3.5px dotted white;
+    border-radius: 50%;
+    animation: child6 300s alternate linear  infinite;
+}
+
+@keyframes child6{
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+
+.dumaloq1 {
+    height: 60px;
+    width: 60px;
+   border-radius: 50%;
+   top: 400px;
+   border: 15px solid rgb(18, 15, 26);
+   left: 800px;
+   background-color: rgb(54, 56, 73);
+   justify-content: center;
+   align-items: center;
+}
+
+.dumaloq1:hover{
+    animation: rang 2s alternate;
+    
+}
+
+@keyframes rang{
+    to {
+       background-color: blue;
+       border: 15px solid blue;
+
+    }
+}
+
+.dumaloq2:hover{
+    animation: rang2 2s alternate;
+    
+}
+
+@keyframes rang2{
+    to {
+       background-color: blue;
+       border: 15px solid blue;
+
+    }
+}
+
+.dumaloq3:hover{
+    animation: rang3 2s alternate;
+    
+}
+
+@keyframes rang3{
+    to {
+       background-color: blue;
+       border: 15px solid blue;
+
+    }
+}
+
+.dumaloq2 {
+    height: 60px;
+    margin-left: 210px;
+    margin-top: 20px;
+    width: 60px;
+    border: 15px solid rgb(18, 15, 26);
+   border-radius: 50%;
+   top: 400px;
+   left: 800px;
+   background-color: rgb(54, 56, 73);
+   justify-content: center;
+   align-items: center;
+}
+
+
+.dumaloq3 {
+    height: 60px;
+    width: 60px;
+    border: 15px solid rgb(18, 15, 26);
+   border-radius: 50%;
+   top: 400px;
+   left: 800px;
+   background-color: rgb(54, 56, 73);
+
+   justify-content: center;
+   align-items: center;
+}
+
+.yoz1 {
+
+    font-size: 12px;
+    padding-left: 3px;
+    color: rgb(99, 96, 96);
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+
+
+
+.yoz2 {
+    font-size: 12px;
+    padding-left: 10px;
+    color: rgb(99, 96, 96);
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+.bosh:hover {
+    animation: mishka1 15s alternate ;
+}
+
+@keyframes mishka1{
+
+      0% {
+        transform: rotate(0deg);
+      }
+
+      25%{
+          transform: rotate(40deg);
+      }
+
+      50%{
+        transform: rotate(140deg);
+      }
+      75%{
+        transform: rotate(250deg);
+      }
+
+      100% {
+          transform: rotate(360deg);
+      }
+}
+
+.bosh {
+    position: absolute;
+    top: 257px;
+    left: 846px;
+    height: 248px;
+    width: 248px;
+    border: 3px solid rgb(31, 31, 155);
+    border-radius: 50%;
+}
+
+.tel1 {
+    color: rgb(238, 236, 236);
+    margin-top: 35px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.tel2 {
+    color: rgb(194, 194, 194);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 10px;
+}
+
+.tel3 {
+    color: rgb(194, 194, 194);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 10px;
+}
+
+.tel4 {
+    color: rgb(238, 236, 236);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 13px;
+}
+
+.tel5 {
+    color: rgb(194, 194, 194);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.tel6 {
+    color: rgb(238, 236, 236);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 11px;
+   color: blue;
+    padding-left: 35px;
+}
+.tel7 {
+    color: rgb(238, 236, 236);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+.tel8 {
+    color: rgb(194, 194, 194);
+    margin-bottom: 0px;
+    font-size: 10px;
+    margin-top: 0px;
+    padding-left: 15px;
+}
+
+.tel {
+    margin-left: 40px;
+}
+
+.posit {
+    position: absolute;
+    top: 285px;
+    left: 875px;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+}
+
+
+.lov1 {
+    animation: zaryadka 10s linear  alternate 2;
+}
+ @keyframes zaryadka{
+      
+      0% {
+        color: rgb(18, 15, 26);
+        
+      }
+      50%{
+        color: rgb(18, 15, 26);
+      }
+      100%{
+        color: rgb(18, 15, 26);
+      }
+    }
+
+ .lov2 {
+    animation: zaryadka 6s   alternate 2;
+}
+ 
+
+ .lov3 {
+    animation: zaryadka 4s linear  alternate 3;
+ }
+    @keyframes zaryadka{
+   from {
+       color: ;
+   }
+
+        to {
+           color: rgb(18, 15, 26);
+        }
+    }

@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.main{
+    position: absolute;
+   top: 250px;
+   right: 100px; 
+  
+}
+
+
+.circle1{
+    position: absolute;
+    right: 140px;
+    width: 310px;
+    height: 310px;
+    border: 7px solid hsla(219, 100%, 50%, 0.658);
+    border-radius: 50%;
+    animation: action 7s infinite linear;
+
+}
+.circle2{
+     position: absolute;
+    right: 150px; 
+    top: 10px;
+    width: 290px;
+    height: 290px;
+    border: 3px solid rgba(0, 68, 255, 0.452);
+    border-radius: 50%;
+    animation: action 7s infinite linear;
+}
+.circle3{
+    position: absolute;
+    right: 155px;
+    top: 15px; 
+   
+    width: 280px;
+    height: 280px;
+    border: 3px solid white;
+    border-radius: 50%;
+    animation: action 7s infinite linear;
+}
+.circle4{
+    position: absolute;
+    right: 170px;
+    top: 30px; 
+   
+    width: 250px;
+    height: 250px;
+    border: 3px dashed grey;
+    border-radius: 50%;
+    animation: action 7s infinite linear;
+}
+.column1{
+    position: absolute;
+    top: -5;
+    right: 170px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: indianred;
+}
+@keyframes action{
+    to {
+        transform: rotate(360deg);
+      
+        
+    }
+}

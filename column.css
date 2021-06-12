@@ -1,0 +1,224 @@
+
+.wrapper{
+   margin-top: 50px;
+    
+    width: 100%;
+    font-size: 20px;
+    font-family: baloo;
+    color: #d3d3d3;
+    text-align: center;
+    letter-spacing: 1px;
+    transition: 0.7s;
+
+}
+.wrapper span:nth-child(1){
+    transition-delay: 300ms;
+}
+
+.wrapper span:nth-child(2){
+    transition-delay: 1250ms;
+}
+.wrapper span:nth-child(3){
+    transition-delay: 900ms;
+}
+.wrapper span:nth-child(4){
+    transition-delay: 400ms;
+}
+.wrapper span:nth-child(5){
+    transition-delay: 800ms;
+}
+.wrapper span:nth-child(6){
+    transition-delay: 700ms;
+}
+.wrapper span:nth-child(7){
+    transition-delay: 500ms;
+}
+.wrapper span:nth-child(8){
+    transition-delay: 1000ms;
+}
+.wrapper span:nth-child(9){
+    transition-delay: 800ms;
+}
+.wrapper: hover span{
+    opacity:1;
+}
+
+.sport{
+
+    position: relative;
+    left: 40%;
+    top: 20%;
+    color: white;
+}
+   .explorer{
+       position: relative;
+       left: 40%;
+       top: 40%;
+       color: white;
+   }
+   .journal{
+    position: relative;
+    left: 40%;
+    top: 60%;
+    color: white;
+}
+
+.loader span{
+    display: inline-block;
+    width: 3px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+   margin-top: 12%;
+    left: 45%;
+    box-shadow: 0 -5px 10px white;
+    transform: scaleY(1);
+    transform-origin: bottom;
+    animation: line 1.5s ease 0s infinite;
+
+}
+.loader span:nth-child(2){
+    animation-delay: -1s;
+}
+.loader span:nth-child(3){
+    animation-delay: -1.3s;
+}
+.loader span:nth-child(4){
+    animation-delay: -2s;
+}
+.loader span:nth-child(5){
+    animation-delay: -2.5s;
+}
+@keyframes line{
+    50%{
+        transform: scaleY(0);
+        filter: hue-rotate(360deg);
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vh;
+    overflow: hidden;
+    background-color: teal;
+}
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.solar-system{
+    margin-bottom: 60%;
+    position: relative;
+    left: 80%;
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    border: 10px solid rgb(0, 110, 255);
+    animation: rotation 20s linear infinite;
+
+}
+.systems{
+    position: relative;
+    left: 10px;
+    top: 10px;
+   
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    border: 5px solid white;
+    animation: rotation 20s linear infinite;
+}
+    .systemout{
+        
+        position: relative;
+        bottom: 10px;
+        right: 10px;
+        
+      
+        height: 290px;
+        width: 290px;
+        border-radius: 50%;
+        border: 3px solid rgb(0, 183, 255);
+        animation: rotation 20s linear infinite;
+    }
+    .dashed{
+        
+        position: relative;
+        top: 17px;
+        left: 17px;
+      
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        border: 5px dashed rgb(0, 247, 255);
+         animation: rotation 20s linear infinite; 
+        
+    } 
+
+
+.earth{
+    position: relative;
+    top: 200%; 
+  left: 90%; 
+    transform: translate(-50%,-50%);
+    background-color: rgb(0, 255, 255);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.earth1{
+    margin-top: 40%;
+    transform: translate(-50%,-50%);
+    background-color: steelblue;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.earth2 {
+    position: relative;
+    top: 200%;
+    left: 100%;
+    transform: translate(-50%,-50%);
+    background-color:steelblue;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+   
+}
+
+
+
+  @keyframes pulse-sun{
+    from{
+        box-shadow: 0 0 0 0 brown;
+
+    }
+    to{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0,);
+    }      
+}
+@keyframes pulse-moon{
+    from{
+        box-shadow: 0 0 0 0 #fefafa90;
+
+    }
+    to{
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0,);
+    }      
+}
+@keyframes rotation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}   
